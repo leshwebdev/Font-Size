@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <title>Enlarge and </title>
+</head>
+
+<body>
+    <div class="wrapper flex column h-centered box-shadow">
+        <i>Adjust the Size</i>
+        <div class="bar flex column centered">
+            <div class="query flex centered">Pixel Size</div>
+            <div class="actions flex centered box-shadow">
+                <button id="plus" onclick="changeFontSize('enlarge')"><img src="./img/plus.png" alt=""></button>
+                <div id="curr-num">16px</div>
+                <button id="minus" onclick="changeFontSize('reduce')"><img src="./img/minus.png" alt=""></button>
+            </div>
+        </div>
+        <div class="container flex v-centered">
+            <div id="canvas" class="flex column h-centered">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad aliquam nisi perspiciatis mollitia, laboriosam fugiat aliquid dolorum ut sit facilis soluta? Excepturi debitis quos voluptatem dolorem id itaque veniam animi.</div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
