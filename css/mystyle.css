@@ -40,7 +40,7 @@ button:disabled {
 }
 
 .container {
-  height: 75%;
+  height: 70%;
   width: 90%;
   background-color: slategray;
   box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
